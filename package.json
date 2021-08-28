@@ -1,0 +1,19 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "A place to practice various typescript techniques",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-walker/typescript-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-walker/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/t-walker/typescript-learning#readme"
+}
