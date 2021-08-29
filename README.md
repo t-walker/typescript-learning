@@ -40,3 +40,5 @@ My primary source for this is O'Reilly's "Effective TypeScript" book by Dan Vand
 - There are no language services for `any` types because TypeScript has no addtitional context about them
 - `any` hides any typing you've done in upstream declarations 
 - `any` undermines confidence in the type system because mistakes are left to be caught at runtime 
+- `any` silences the type checker 
+- `any` silences the TypeScript language service 
