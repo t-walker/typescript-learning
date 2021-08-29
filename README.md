@@ -42,3 +42,18 @@ My primary source for this is O'Reilly's "Effective TypeScript" book by Dan Vand
 - `any` undermines confidence in the type system because mistakes are left to be caught at runtime 
 - `any` silences the type checker 
 - `any` silences the TypeScript language service 
+
+### 6. Use your editor to interrogate and explore the type system 
+- Out of the box TypeScript gives you two executables: `tsc` and `tsserver`
+- `tsc` is the TypeScript compiler
+- `tsserver` is the TypeScript standalone server 
+- The server runs the language services that are used in IDEs (autocomplete, inspection, navigation, and refactoring)
+- The language service provides the ability to use "Go to definition" 
+
+### 7. Think of types as sets of values 
+- Before code runs, TypeScript checks it for errors. Every variable has a type, and that is considered a set of possible values.
+- The set of possible values is known as the domain of the type. 
+- Depending on `strictNullChecks` null and undefined may or may not be part of the domain.
+- The smallest domain is the empty set, assignable with the type `never`
+- The next smallest sets are single value domains also known as unit types
+- The next smallest sets are types with two values known as union types (unioning unit types)
